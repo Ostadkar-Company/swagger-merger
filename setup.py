@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="swagger-merger",
-    version="1.0.1",
+    version="1.0.2",
     author="Sina Mehrabi",
     description="swagger merger python package",
     long_description=long_description,
