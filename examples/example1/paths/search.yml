@@ -1,0 +1,27 @@
+get:
+  tags:
+    - everyone
+  summary: Return list of something with given Keyword
+  operationId: search
+  parameters:
+    - in: path
+      required: true
+      name: search_item
+      type: string
+
+    - $ref: './odata_params.yml#ODataFilter'
+    - $ref: './odata_params.yml#ODataOrderBy'
+    - $ref: './odata_params.yml#ODataTop'
+    - $ref: './odata_params.yml#ODataSkip'
+    - $ref: './odata_params.yml#ODataExpand'
+    - $ref: './odata_params.yml#ODataSelect'
+  responses:
+    200:
+      description: Return list
+      schema:
+        $ref: '#/definitions/SomethingDTO'
+
+    404:
+      description: Not Found
+      schema:
+        $ref: '#/definitions/ErrorDTO'

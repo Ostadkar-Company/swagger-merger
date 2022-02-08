@@ -1,0 +1,10 @@
+get:
+  tags:
+    - everyone
+  summary: Health Check
+  operationId: health_check
+  responses:
+    200:
+      description: return one
+      schema:
+        $ref: '#/definitions/CheckDTO'

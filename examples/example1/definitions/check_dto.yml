@@ -1,0 +1,12 @@
+title: CheckDTO
+type: object
+readOnly: true
+properties:
+  name:
+    type: string
+  version:
+    type: string
+  server_time:
+    type: string
+    format: date-time
+    example: 2018-09-06T23:11

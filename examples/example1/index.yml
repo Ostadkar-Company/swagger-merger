@@ -1,0 +1,39 @@
+swagger: '2.0'
+
+info:
+  title: example-service
+  version: 0.0.1
+
+  contact:
+    email: sina.mehrabi1990@gmail.com
+
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+
+tags:
+  - name: users
+  - name: admins
+
+
+schemes:
+  - http
+
+host: localhost:5000
+
+securityDefinitions:
+  Bearer:
+    type: apiKey
+    name: Authorization
+    in: header
+
+produces:
+  - application/json
+consumes:
+  - application/json
+
+paths:
+  $ref: './paths/index.yml'
+
+definitions:
+  $ref: './definitions/index.yml'

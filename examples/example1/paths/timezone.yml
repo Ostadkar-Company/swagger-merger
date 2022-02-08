@@ -1,0 +1,10 @@
+get:
+  tags:
+    - everyone
+  operationId: get_time_zone
+  summary: request the current time
+  responses:
+    '200':
+      description: ok
+      schema:
+        $ref: '#/definitions/TimeZoneDTO'

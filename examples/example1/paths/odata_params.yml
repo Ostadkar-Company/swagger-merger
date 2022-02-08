@@ -1,0 +1,47 @@
+ODataFilter:
+  in: query
+  description: OData filter expression.
+  name: $filter
+  required: false
+  type: string
+  x-ms-parameter-location: method
+
+ODataOrderBy:
+  in: query
+  description: OData order expression.
+  name: $orderby
+  required: false
+  type: string
+  x-ms-parameter-location: method
+
+ODataTop:
+  in: query
+  description: OData Top expression.
+  name: $top
+  required: false
+  type: string
+  x-ms-parameter-location: method
+
+ODataSkip:
+  in: query
+  description: OData skip expression.
+  name: $skip
+  required: false
+  type: string
+  x-ms-parameter-location: method
+
+ODataExpand:
+  in: query
+  description: OData expand expression.
+  name: $expand
+  required: false
+  type: string
+  x-ms-parameter-location: method
+
+ODataSelect:
+  in: query
+  description: OData select expression.
+  name: $select
+  required: false
+  type: string
+  x-ms-parameter-location: method

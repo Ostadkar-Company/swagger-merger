@@ -1,0 +1,11 @@
+title: ErrorDTO
+type: object
+readOnly: true
+properties:
+  code:
+    type: number
+    format: integer
+  message:
+    type: string
+  uri:
+    type: string

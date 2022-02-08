@@ -1,0 +1,8 @@
+/search/{search_item}:
+  $ref: './search.yml'
+
+/:
+  $ref: './health.yml'
+
+/time:
+  $ref: 'timezone.yml'

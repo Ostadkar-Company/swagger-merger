@@ -1,0 +1,11 @@
+ErrorDTO:
+  $ref: './error_dto.yml'
+
+CheckDTO:
+  $ref: './check_dto.yml'
+
+SomethingDTO:
+  $ref: './something_dto.yml'
+
+TimeZoneDTO:
+  $ref: './time_zone_dto.yml'
