@@ -10,3 +10,11 @@
 For example:
 ```yaml
 $ref: "./order.yaml"
+```
+
+#### You can merge swagger files with command below: (There are some test files in examples directory)
+
+```
+merger -f index.yml
+```
+(index.yml is just a file name in example)
