@@ -18,3 +18,9 @@ $ref: "./order.yaml"
 merger -f index.yml
 ```
 (index.yml is just a file name in example)
+
+#### You can optionally specify an output filename with the -o argument, the default is swagger.yml
+
+```
+merger -f index.yml -o output.yml
+```
